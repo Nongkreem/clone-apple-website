@@ -1,0 +1,29 @@
+* {
+    font-size: 12px;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-menu{
+    display: flex;
+    gap: 36px;
+    align-items: center;
+    white-space: nowrap;
+}
+.icon{
+    width: 30px;
+    height: 28px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(217, 216, 216);
+}
+
+
