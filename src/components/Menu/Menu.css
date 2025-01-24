@@ -1,36 +1,28 @@
-
-.menu-list {
+.menu{
+    width: 136px;
+    height: 147px;
     display: flex;
-    white-space: nowrap; /* ป้องกันการขึ้นบรรทัดใหม่ */
-    width: 100%; /* กำหนดให้กว้างเต็มหน้าจอ */
-    
-    gap: 20px; /* เพิ่มช่องว่างระหว่างเมนู */
-    padding: 20px 0; /* ป้องกันเมนูชิดเกินไป */
-
-    overflow-x: hidden;  /* ซ่อน scrollbar */
-    white-space: nowrap; /* ป้องกันการขึ้นบรรทัดใหม่ */
-    position: relative;
-}
-
-.menu-list-item {
-    width: 146px;
-    height: 148px;
-    /* border: solid 1px rgb(5, 39, 255); */
-    display: flex;
-    align-items: center;
     flex-direction: column;
-    gap: 16px;
-    /* background-color: #f0f0f0; เพิ่มสีพื้นหลังเพื่อทดสอบ */
+    gap: 20px;  /* ลด gap ลงเพื่อให้เนื้อหาแน่นขึ้น */
+    align-items: center; /* ทำให้เนื้อหาตรงกลาง */
+    justify-content: center;
 }
-
-.menu-list-item img{
+.menu img {
     width: 120px;
     height: 78px;
-    /* border: solid 1px rgb(22, 255, 77); */
 }
 
-.menu-list-item p {
-    font-weight: 600;
+.menu p {
     font-size: 16px;
-    white-space: nowrap;
+    font-weight: 400;
 }
+
+.carousel-container {
+    padding: 0 !important; /*บังคับ ให้สไตล์ที่กำหนดมี ความสำคัญสูงสุด "override"*/
+  }
+  
+.carousel-item-custom {
+    width: 100% !important;
+    max-width: 200px; /* ปรับขนาดการ์ดให้พอดี */
+    margin: 0 5px; 
+}    

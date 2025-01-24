@@ -9,6 +9,32 @@ import menu8 from './homepod-menu.png'
 import menu9 from './etc-menu.png'
 import menu10 from './gif-menu.png'
 
+
+
+export const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 1440 },
+      items: 7,
+      slidesToSlide: 1,
+    },
+    desktop: {
+      breakpoint: { max: 1440, min: 1024 },
+      items: 5,
+      slidesToSlide: 1,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 768 },
+      items: 3,
+      slidesToSlide: 1,
+    },
+    mobile: {
+      breakpoint: { max: 768, min: 0 },
+      items: 2,
+      slidesToSlide: 1,
+    }
+};
+
 export const menu_list = [
     {
         menu_img: menu1,
