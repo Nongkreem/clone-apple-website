@@ -1,0 +1,28 @@
+
+.new-product-section {
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.title-wrapper {
+    margin-top: 50px;
+    font-weight: 300;
+    white-space: nowrap;
+}
+.title-wrapper h1 {
+    font-size: 28px;
+    font-family: "sukhumvit-bold";
+    display: inline;
+}
+.title-wrapper .sub-title{
+    color: #7e7e7e;
+}
+
+

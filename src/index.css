@@ -1,7 +1,7 @@
 
 @font-face {
-  font-family: "sukhumvit";
-  src: url("/font/SukhumvitSet-Text.ttf") format("truetype");
+  font-family: "sukhumvit-thin";
+  src: url("/font/SukhumvitSet-Thin.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -25,7 +25,8 @@
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-}
+  
+} 
 
 a{
  text-decoration: none;
@@ -34,9 +35,5 @@ a{
 
 body {
   font-family: "sukhumvit", sans-serif;
+  background-color: rgb(253, 253, 253);
 }
-
-/* .app {
-  width: 80%;
-  margin: auto;
-} */

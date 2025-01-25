@@ -17,10 +17,6 @@
     font-weight: 400;
 }
 
-.carousel-container {
-    padding: 0 !important; /*บังคับ ให้สไตล์ที่กำหนดมี ความสำคัญสูงสุด "override"*/
-  }
-  
 .carousel-item-custom {
     width: 100% !important;
     max-width: 200px; /* ปรับขนาดการ์ดให้พอดี */

@@ -7,7 +7,7 @@ const Header = () => {
     <div className='header'>
         <div className="text-container">
             <h1 className='header-text'>ร้านของเรา</h1>
-            <div className='sub-header-text'>คือที่ที่ดีที่สุดในการ<br/>ซื้อผลิตภัณฑ์ที่คุณรัก</div>
+            <div className='sub-header-text'> คือที่ที่ดีที่สุดในการ<br/>ซื้อผลิตภัณฑ์ที่คุณรัก</div>
         </div>
         <div className="chatstore-section">
             <div className="shop-chat">

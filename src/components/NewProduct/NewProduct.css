@@ -1,0 +1,53 @@
+.new-product {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* ตัดส่วนที่เกินขอบ */
+    border-radius: 16px 16px;
+}
+
+.new-product-carousel-item {
+    width: 400px !important;
+    height: 500px !important;
+    margin: 8px;
+}
+
+.new-product img {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px 16px;
+    object-fit: cover;
+    position: relative;
+}
+.content {
+    margin-top: 50px;
+    margin-left: 30px;
+    position: absolute;
+    color: white; /* ข้อความสีขาว */
+    mix-blend-mode: difference;  /* ทำให้ข้อความปรับเปลี่ยนสีตามพื้นหลัง */
+}
+
+.content .name {
+    font-size: 28px;
+    font-family: "sukhumvit-medium";
+    font-weight: 500;
+}
+.content .description {
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: "sukhumvit-medium";
+    font-weight: 300;
+}
+.content .price {
+    margin-top: 5px;
+    font-size: 14px;
+    font-family: "sukhumvit-thin";
+}
+
+.new-product:hover {
+    transform: scale(1.01); /* ขยายขนาด 10% */
+    transition: transform 0.3s ease-in-out; /* เพิ่มเอฟเฟกต์นุ่มนวล */
+    cursor: pointer;
+}
